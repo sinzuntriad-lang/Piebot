@@ -1,0 +1,8 @@
+# Messenger (async, cookie login). fbchat-asyncio is built on the old fbchat and no longer works
+# with current Messenger, so the adapter in messenger.py targets fbchat-muqit instead.
+fbchat-muqit
+
+# Web dashboard + health check
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
