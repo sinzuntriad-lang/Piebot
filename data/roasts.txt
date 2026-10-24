@@ -1,0 +1,3 @@
+# Isang line = isang step ng GC cycle (GC title AT nickname ng bawat member).
+# Ang mga linyang nagsisimula sa # ay hindi gagamitin.
+# Palitan mo ito ng sarili mong listahan.

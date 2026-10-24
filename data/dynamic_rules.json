@@ -1,0 +1,80 @@
+[
+  {
+    "name": "asoka",
+    "pattern": "\\b(?:aso\\s*ka|asoka)\\b",
+    "replies": [
+      "mamamo aso",
+      "mama mo aso",
+      "aso ka rin, tumahol ka na lang",
+      "aso daw, eh ikaw nga tong tahol nang tahol",
+      "mamamo aso, pero cute ka pa rin"
+    ]
+  },
+  {
+    "name": "echo-insult",
+    "pattern": "\\b(?P<w>tanga|bobo|gago|ulol|pangit|mabaho|bano|mahina|weak|panget|engot|abnormal)\\s*(?:ka|mo|u|ka\\s+rin|ka\\s+talaga|ka\\s+naman)\\b",
+    "replies": [
+      "{w} ka rin",
+      "mas {w} ka",
+      "{w} ka dyan, pag-isipan mo",
+      "kaya pala {w} ka eh",
+      "{w} daw, eh ikaw nagsabi",
+      "pa-{w} ka pa, ikaw naman talaga"
+    ]
+  },
+  {
+    "name": "mamamo",
+    "pattern": "\\b(?:mamamo|mama\\s*mo|nanay\\s*mo)\\b",
+    "replies": [
+      "mama mo",
+      "mamamo rin",
+      "mama mo na naman, wala ka bang bago",
+      "wala ka na bang ibang alam kundi mama mo",
+      "mama mo, mama mo, tapos ano"
+    ]
+  },
+  {
+    "name": "problema",
+    "pattern": "\\b(?:ano|anong)\\s+(?:ba\\s+)?(?:problema|pake|isyu)\\s+mo\\b",
+    "replies": [
+      "ikaw problema ko",
+      "wala, trip lang kitang panoorin",
+      "problema ko? ikaw lang naman",
+      "pake ko sa'yo, sabi mo eh",
+      "wala, libangan lang kita"
+    ]
+  },
+  {
+    "name": "sino-ka",
+    "pattern": "\\bsino\\s+(?:ka|ka\\s+ba|ka\\s+ba\\s+talaga)\\b",
+    "replies": [
+      "ako lang naman pinagpapantasyahan mong manalo",
+      "ako yung iniiwasan mo",
+      "sino ka rin? extra ka lang dito",
+      "ako yung dahilan bat ka naka-online",
+      "ako yung hinahanap mo sa panaginip mo"
+    ]
+  },
+  {
+    "name": "pikon",
+    "pattern": "\\b(?:pikon|napipikon|pikon\\s+ka)\\b",
+    "replies": [
+      "pikon agad, wala pa ngang nagagawa",
+      "ikaw nga pikon, ako chill lang",
+      "di ako pikon, ikaw yung namumula",
+      "pikon pikon, tubig ka na lang",
+      "sino pikon? ikaw yung nag-ca-caps eh"
+    ]
+  },
+  {
+    "name": "tahimik",
+    "pattern": "\\b(?:tumahimik|tahimik|manahimik|shut\\s*up)\\b",
+    "replies": [
+      "ikaw tumahimik, ikaw nagsimula",
+      "tahimik? eh ang ingay mo nga",
+      "utos ba yan o request, di ko ma-gets",
+      "sino ka para mag-utos, ano ka CEO",
+      "ikaw na lang, kaya mo yan"
+    ]
+  }
+]
